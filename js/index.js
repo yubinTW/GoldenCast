@@ -9,5 +9,5 @@ var mq = $('.marquee').marquee({
     //'left' or 'right'
     direction: 'up',
     //true or false - should the marquee be duplicated to show an effect of continues flow
-    duplicated: true
+    duplicated: false
 });

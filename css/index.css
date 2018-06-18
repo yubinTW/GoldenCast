@@ -1,30 +1,57 @@
+* {
+    font-family: '微軟正黑體';
+}
 body {
     margin: 0;
     padding: 0;
-}
-* {
-    font-family: '微軟正黑體';
+    font-size: 30px;
 }
 .marquee {
     width: 100%;
     height: 600px;
     overflow: hidden;
     border: 1px solid #ccc;
-    background: #ccc;
+    background: #AAA;
 }
 #content {
     width: 90%;
     height: 100%;
     margin: 10px auto;
 }
+.time-line {
+    /* background-color: #EEE; */
+    background-color: rgb(191, 248, 248);
+    border-style: groove;
+    width: 20em;
+    margin: 1em auto ;
+}
+.time-line p {
+    font-weight: 900;
+    font-size: 1.3em;
+    line-height: 0.5em;
+    padding: 0.7em 1em 0.5em 1em;
+    text-align: center;
+}
 .title {
-    background-color: aquamarine;
-    margin: 20px;
+    background-color: #EEE;
+    margin: 5em 3em 3em 3em;
+    border-radius: 50%;
+}
+.title p {
     font-weight: bold;
-    font-size: 1.5em;
+    font-size: 1.1em;
+    padding: 0.5em 1em;
+    text-align: center;
 }
 .item {
-    background-color: antiquewhite;
-    margin: 20px;
-    
+    background-color: rgb(252, 252, 220);
+    margin: 2em 3em;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px rgb(155, 155, 134);
+}
+.item p {
+    padding: 0.5em 1em;
+    font-size: 1.2em;
+    font-weight: 800;
+    /* text-shadow: 1px  1px black; */
 }
